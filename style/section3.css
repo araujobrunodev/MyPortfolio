@@ -1,0 +1,98 @@
+#section3 {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    clear: both;
+
+    top: 100%;
+    background-color: #DFDFDF;
+}
+
+#projects {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+
+    line-height: 7rem;
+}
+
+#project1, #project2 {
+    display: inline-block;
+    
+    width: 510px;
+    
+    background-color: #E5FFF7;
+    border-radius: 15px;
+
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#tie_tac_toe_title, #Air_girl_title {
+    text-align: center;
+    font-family: "Itim", cursive;
+    text-transform: uppercase;
+}
+
+#appendImg1, #appendImg2 {
+    max-width: 80%;
+
+    background-color: #6E6E6E;
+    border-radius: 20px;
+
+    box-shadow: 6px 12px #5C5C5C;
+    margin-left: 10%;
+}
+
+#TicTacToeImg, #AirGirlImg {
+    width: 170px;
+    height: 290px;
+
+    margin-left: 30%;
+    margin-top: 5px;
+
+    border-radius: 5px;
+}
+
+#projectText1, #projectText2 {
+    position: relative;
+
+    width: 70%;
+    
+    text-align: left;
+    font-size: x-large;
+    font-weight: 400px;
+    font-family: "Iter", sans-serif;
+
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#play1, #play2 {
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bolder;
+
+    border: 2.5pt solid black;
+    background-color: #55E0FF;
+    border-radius: 15px;
+
+    text-align: center;
+    color: white;
+
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+#project1 {
+    height: 50%;
+}
+
+#project2 {
+    position: absolute;
+}
