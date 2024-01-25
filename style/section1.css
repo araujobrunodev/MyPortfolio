@@ -1,9 +1,11 @@
 #section1 {
-    position: absolute;
+    position: relative;
 
     display: flex;
     flex-direction: column;
     
+    float: left;
+
     width: 60%;
     height: 92%;
 
