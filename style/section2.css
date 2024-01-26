@@ -70,3 +70,38 @@ body {
 #skills li {
     font-size: 22px;
 }
+
+@media only screen and (max-width: 412px) {
+    #section2 {
+        width: 100%;
+        height: 92%;
+        background-color: #CAFFFF;
+    }
+
+    #about_me {
+        margin-top: 27%;
+    }
+
+    #textAboutMe {
+        font-weight: bold;
+    }
+
+    #skills {
+        max-width: 55%;
+        margin-left: 20%;
+    }
+
+    #skills h1 {
+        font-weight: 800;
+        margin-left: -10%;
+        margin-top: 4%;
+    }
+
+    #skills ul,#skills li {
+        font-weight: bolder;
+    }
+
+    #skills ul {
+        margin-top: -7%;
+    }
+}
