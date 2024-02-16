@@ -15,14 +15,12 @@
 /* main itens */
 
 #presentation {
-    flex: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex: 30%;
+    margin-bottom: -13%;
 }
 
 #contacts {
-    flex: 50%;
+    flex: 70%;
 }
 
 /* childs */
@@ -32,32 +30,34 @@
 }
 
 #presentation h1 {
-    flex: 1%;
-    
     font-family: 'Kotta One', serif;
     font-size: 60px;
     text-align: center;
-    
-    padding-top: 3%; 
+    line-height: 10rem;
 }
 
 #facePhoto {
     position: relative;
-    flex: 45%;
 
-    width: 50%;
-    height: 1%;
+    width: 57%;
+    height: 57%;
     
     border-radius: 100%;
 
-    left: 25%;     
+    left: 23%;
+    top: 1%;     
 }
 
 #contacts h2 {
+    margin: 0px;
     font-family: "Itim", cursive;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
+}
+
+#contacts a, #linkedin, #github {
+    width: 55px;
 }
 
 #contacts button{
@@ -66,24 +66,12 @@
     padding-right: 3%;
 }
 
-#github, #linkedin {
-    width: 55px;
-    cursor: pointer;
+#contacts a {
+    display: inline-block;
 }
 
-#githubButton, #linkedinButton {
-    position: absolute;
-    width: 55px;
-
-    margin-top: -4%;
-}
-
-#githubButton {
-    margin-left: 41%;   
-}
-
-#linkedinButton {
-    margin-left: 52%;   
+#first_a {
+    margin-left: 42%;
 }
 
 /* mobile */
@@ -100,6 +88,10 @@
     
         background-color: white;
     }
+
+    #presentation {
+        margin-bottom: 7%;
+    }
     
     #presentation h1 {
         flex: 1%;
@@ -109,14 +101,11 @@
         font-family: 'Kotta One', serif;
         font-size: 60px;
         
-        margin: 5% 0% 5% 26%;  
+        margin: 3% 0% 2% 27%;
+        line-height: 66px;  
     }
 
-    #githubButton {
-        margin-left: 34%;   
-    }
-    
-    #linkedinButton {
-        margin-left: 53%;   
+    #first_a {
+        margin-left: 36%;
     }
 }
