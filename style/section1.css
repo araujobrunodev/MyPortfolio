@@ -29,13 +29,37 @@
     position: relative;
     
     width: 57%;
-    height: 57%;
+    height: 41%;
     
     margin: 0px;
     border-radius: 100%;
+    border: 3px solid #4074B1;
 
     left: 23%;
-    top: 1%;     
+    top: -9%;     
+}
+
+#semicircle {
+    position: relative;
+
+    width: 72%;
+    height: 46%;
+
+    left: 17%;
+    top: -52%;
+}
+
+#circle {
+    position: relative;
+
+    background-color: #00E0AA;
+    border-radius: 100%;
+    
+    width: 50%;
+    height: 31%;
+
+    top: 33%;
+    left: 35%;
 }
 
 #contacts h2 {
