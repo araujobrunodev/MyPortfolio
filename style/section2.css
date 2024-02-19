@@ -10,65 +10,61 @@ body {
     display: flex;
     flex-direction: column;
     
-    width: 40%;
-    height: 92%;
-    background-color: #EAFFFF;
+    width: 70%;
+    height: 99vh;
     
     float: right;
+}
+
+#MyName {
+    font-size: 60px;
+    text-align: center;
+    font-family: "trade winds", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 3px;
+    line-height: 100px;
 }
 
 #about_me {
     position: relative;
 
-    max-width: 70%;
+    max-width: 80%;
     height: 50%;
 
     padding-bottom: 10px;
-    margin-left: 15%;
-    margin-top: 13%;
+    margin-left: 12%;
+    margin-top: 1%;
 
-    border: 1.5pt solid #FAFF00;
+    border: 5.5pt solid #FAFF00;
     border-radius: 15px;
     background-color: #BD00FF;
 
-    text-align: center;
     color: white;
-    font-family: "Inter", cursive;
-    font-weight: bold;
+    font-family: "jejuhallasan", sans-serif;
+    font-weight: bolder;
 
     transform: rotate(-1deg);
 }
 
+#borderAboutMe {
+    position: relative;
+    top: -38%;
+
+    width: 90%;
+    left: 9%;
+}
+
 #textAboutMe {
-    font-size: x-large;
-    font-weight: 10;
+    font-size: 2rem;
+    margin-left: 12px;
 }
 
-#skills {
-    max-width: 50%;
-    height: 20rem;
-
-    background-color: yellow;
-    
-    border: 1px solid purple;
-    border-radius: 15px;
-
-    margin-left: 130px;
-    margin-top: 80px;
-    margin-bottom: 120px;
-
-    padding-left: 40px;
-
-    transform: rotate(5deg);
-}
-
-#skills h1, #skills ul {
-    transform: rotate(-5deg);
-    font-family: "Inter",sans-serif;
-}
-
-#skills li {
-    font-size: 22px;
+#topLines {
+    position: absolute;
+    width: 24%;
+    height: 24%;
+    left: 76%;
 }
 
 @media only screen and (max-width: 412px) {
@@ -84,24 +80,5 @@ body {
 
     #textAboutMe {
         font-weight: bold;
-    }
-
-    #skills {
-        max-width: 55%;
-        margin-left: 20%;
-    }
-
-    #skills h1 {
-        font-weight: 800;
-        margin-left: -10%;
-        margin-top: 4%;
-    }
-
-    #skills ul,#skills li {
-        font-weight: bolder;
-    }
-
-    #skills ul {
-        margin-top: -7%;
     }
 }

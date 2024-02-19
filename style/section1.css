@@ -6,8 +6,8 @@
     
     float: left;
 
-    width: 60%;
-    height: 92%;
+    width: 30%;
+    height: 99vh;
 
     background-color: white;
 }
@@ -25,23 +25,13 @@
 
 /* childs */
 
-#presentation h1,#facePhoto {
-    margin: 0px;
-}
-
-#presentation h1 {
-    font-family: 'Kotta One', serif;
-    font-size: 60px;
-    text-align: center;
-    line-height: 10rem;
-}
-
 #facePhoto {
     position: relative;
-
+    
     width: 57%;
     height: 57%;
     
+    margin: 0px;
     border-radius: 100%;
 
     left: 23%;
@@ -74,6 +64,11 @@
     margin-left: 42%;
 }
 
+#lowerLines {
+    width: 55%;
+    height: 55%;
+}
+
 /* mobile */
 
 @media only screen and (max-width:412px) {
@@ -91,18 +86,6 @@
 
     #presentation {
         margin-bottom: 7%;
-    }
-    
-    #presentation h1 {
-        flex: 1%;
-
-        width: 200px;
-        
-        font-family: 'Kotta One', serif;
-        font-size: 60px;
-        
-        margin: 3% 0% 2% 27%;
-        line-height: 66px;  
     }
 
     #first_a {
