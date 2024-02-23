@@ -7,7 +7,7 @@
     clear: both;
 
     top: 100%;
-    background-color: #DFDFDF;
+    background-color: #2F3C3A;
 }
 
 #projects {
@@ -15,6 +15,7 @@
     font-weight: 300;
     font-size: 40px;
     text-align: center;
+    color: #F24BE3;
 
     line-height: 7rem;
     margin-top: 0px;
@@ -25,7 +26,7 @@
     
     width: 510px;
     
-    background-color: #E5FFF7;
+    background-color: #735D71;
     border-radius: 15px;
 
     padding-bottom: 50px;
@@ -37,15 +38,16 @@
     text-align: center;
     font-family: "Itim", cursive;
     text-transform: uppercase;
+    color: #F2D14B;
 }
 
 #appendImg1, #appendImg2 {
     max-width: 80%;
 
-    background-color: #6E6E6E;
+    background-color: #9D9265;
     border-radius: 20px;
 
-    box-shadow: 6px 12px #5C5C5C;
+    box-shadow: 6px 12px #FFFFFF;
     margin-left: 10%;
     cursor: pointer;
 }
@@ -69,6 +71,7 @@
     font-size: x-large;
     font-weight: 400px;
     font-family: "Iter", sans-serif;
+    color: #6FF5E7;
 
     margin-top: 30px;
     margin-left: 80px;
@@ -80,12 +83,12 @@
     font-size: larger;
     font-weight: bolder;
 
-    border: 2.5pt solid black;
-    background-color: #55E0FF;
+    border: 2.5pt solid #F2D14B;
+    background-color: #735D71;
     border-radius: 15px;
 
     text-align: center;
-    color: white;
+    color: #F24BE3;
     cursor: pointer;
 }
 
@@ -142,7 +145,7 @@
 
     #appendImg1,#appendImg2 {
         width: 340px;
-        box-shadow: 12px 6px 2px -5px #5C5C5C;
+        box-shadow: 12px 6px 2px -5px #ffffff;
     }
 
     #TicTacToeImg, #AirGirlImg {
@@ -157,5 +160,14 @@
     #play1, #play2 {
         border-radius: 5px;
         font-size: 23px;
+    }
+
+    #lowerLines {
+        position: relative;
+
+        width: 72%;
+        height: 156px;
+
+        top: -7%;
     }
 }

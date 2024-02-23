@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    border: 1px solid transparent;
+    border: 1px solid #2F3C3A;
 }
 
 #section2 {
@@ -10,8 +10,10 @@ body {
     display: flex;
     flex-direction: column;
     
-    width: 70%;
+    width: 70vw;
     height: 99vh;
+
+    background-color: #2F3C3A;
     
     float: right;
 }
@@ -23,7 +25,9 @@ body {
     font-weight: 600;
     font-style: normal;
     margin-bottom: 3px;
-    line-height: 100px;
+    line-height: 72px;
+    color: #F24BE3;
+    margin-top: 22px;
 }
 
 #about_me {
@@ -36,11 +40,11 @@ body {
     margin-left: 12%;
     margin-top: 1%;
 
-    border: 5.5pt solid #FAFF00;
+    border: 5.5pt solid #9D9265;
     border-radius: 15px;
-    background-color: #BD00FF;
+    background-color: #735D71;
 
-    color: white;
+    color: #6FF5E7;
     font-family: "jejuhallasan", sans-serif;
     font-weight: bolder;
 
@@ -49,7 +53,7 @@ body {
 
 #borderAboutMe {
     position: relative;
-    top: -38%;
+    top: -34%;
 
     width: 90%;
     left: 9%;
@@ -70,15 +74,37 @@ body {
 @media only screen and (max-width: 412px) {
     #section2 {
         width: 100%;
-        height: 92%;
-        background-color: #CAFFFF;
+        height: 99vh;
+        background-color: #2F3C3A;
     }
 
     #about_me {
-        margin-top: 27%;
+        height: 62%;
+
+        margin-top: 2%;
+        margin-left: 7%;
     }
 
     #textAboutMe {
+        height: 97%;
+        
         font-weight: bold;
+        margin-top: 4%;
+        overflow: auto;
+    }
+
+    #borderAboutMe {
+        content: url("../images/smallBorder.png");
+        width: 96%;
+        top: -35%;
+        left: 4%;
+
+    }
+
+    #topLines {
+        width: 45%;
+        height: 26%;
+        
+        left: 55%;
     }
 }
