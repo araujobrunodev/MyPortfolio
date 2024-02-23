@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    border: 1px solid transparent;
+    border: 1px solid #2F3C3A;
 }
 
 #section2 {
@@ -12,6 +12,8 @@ body {
     
     width: 70%;
     height: 99vh;
+
+    background-color: #2F3C3A;
     
     float: right;
 }
@@ -24,6 +26,7 @@ body {
     font-style: normal;
     margin-bottom: 3px;
     line-height: 100px;
+    color: #F24BE3;
 }
 
 #about_me {
@@ -36,11 +39,11 @@ body {
     margin-left: 12%;
     margin-top: 1%;
 
-    border: 5.5pt solid #FAFF00;
+    border: 5.5pt solid #9D9265;
     border-radius: 15px;
-    background-color: #BD00FF;
+    background-color: #735D71;
 
-    color: white;
+    color: #6FF5E7;
     font-family: "jejuhallasan", sans-serif;
     font-weight: bolder;
 
