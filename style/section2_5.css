@@ -47,3 +47,20 @@
 #skills ul {
     margin-left: 20%;
 }
+
+@media only screen and (max-width: 412px) {
+    #section2_5 {
+        background-image: url("../images/background2.png");
+    }
+
+    #skills {
+        width: 76%;
+
+        margin-top: 29%;
+        margin-left: 11%;
+    }
+
+    #skills ul {
+        margin-left: 14%;
+    }
+}

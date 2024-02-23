@@ -145,7 +145,7 @@
 
     #appendImg1,#appendImg2 {
         width: 340px;
-        box-shadow: 12px 6px 2px -5px #5C5C5C;
+        box-shadow: 12px 6px 2px -5px #ffffff;
     }
 
     #TicTacToeImg, #AirGirlImg {
@@ -160,5 +160,14 @@
     #play1, #play2 {
         border-radius: 5px;
         font-size: 23px;
+    }
+
+    #lowerLines {
+        position: relative;
+
+        width: 72%;
+        height: 156px;
+
+        top: -7%;
     }
 }
