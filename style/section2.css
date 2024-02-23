@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     
-    width: 70%;
+    width: 70vw;
     height: 99vh;
 
     background-color: #2F3C3A;
@@ -52,7 +52,7 @@ body {
 
 #borderAboutMe {
     position: relative;
-    top: -38%;
+    top: -34%;
 
     width: 90%;
     left: 9%;
