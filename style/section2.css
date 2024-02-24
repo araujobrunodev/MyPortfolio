@@ -83,7 +83,7 @@ body {
     #about_me {
         height: 62%;
 
-        margin-top: -90%;
+        top: -38%;
         margin-left: 7%;
     }
 
@@ -98,7 +98,7 @@ body {
     #borderAboutMe {
         content: url("../images/smallBorder.png");
         width: 96%;
-        top: 33%;
+        top: 34%;
         left: 4%;
 
     }
