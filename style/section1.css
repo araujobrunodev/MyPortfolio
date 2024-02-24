@@ -112,6 +112,23 @@
         background-color: #2F3C3A;
     }
 
+    #facePhoto {
+        width: 56%;
+        height: 33%;
+    }
+
+    #circle {
+        top: 26%;
+        left: 34%;
+    }
+    
+    #semicircle {
+        width: 70%;
+        height: 44%;
+        left: 16%;
+        top: -50%;
+    }
+
     #presentation {
         margin-bottom: 7%;
     }
