@@ -40,6 +40,8 @@ body {
     margin-left: 12%;
     margin-top: 1%;
 
+    top: -35%;
+
     border: 5.5pt solid #9D9265;
     border-radius: 15px;
     background-color: #735D71;
@@ -53,9 +55,9 @@ body {
 
 #borderAboutMe {
     position: relative;
-    top: -34%;
+    top: 19%;
 
-    width: 90%;
+    width: 89%;
     left: 9%;
 }
 
