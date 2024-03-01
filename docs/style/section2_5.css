@@ -4,7 +4,7 @@
     height: 99vh;
     clear: both;
 
-    background-image: url("../images/background1.png");
+    background-image: url("../images/background1.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #2F3C3A;
@@ -50,7 +50,7 @@
 
 @media only screen and (max-width: 412px) {
     #section2_5 {
-        background-image: url("../images/background2.png");
+        background-image: url("../images/background2.svg");
     }
 
     #skills {
