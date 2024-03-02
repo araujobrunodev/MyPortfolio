@@ -97,8 +97,10 @@ html {
 }
 
 #lowerLines {
-    width: 55%;
-    height: 55%;
+    position: relative;
+    
+    top: -13%;
+    left: -20%;
 }
 
 /* mobile */
@@ -137,5 +139,14 @@ html {
 
     #first_a {
         margin-left: 36%;
+    }
+
+    #lowerLines {
+        position: relative;
+
+        width: 55%;
+
+        top: -19%;
+        left: -4%;
     }
 }
