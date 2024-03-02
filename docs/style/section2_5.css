@@ -7,17 +7,17 @@
     background-image: url("../images/background1.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: #2F3C3A;
+    background-color: transparent;
 }
 
 #skills_title {
-    font-family: "londrina shadow", sans-serif;
+    font-family: "julee", cursive;
     text-align: center;
     font-size: 66px;
     line-height: 135px;
 
-    color: #F24BE3;
-    -webkit-text-stroke: 0.6pt #F24BE3;
+    color: #00FF0A;
+    -webkit-text-stroke: 0.6pt #00FF0A;
 
     margin-bottom: -63px;
 }
@@ -26,8 +26,8 @@
     width: 30%;
     height: 50%;
 
-    background-color: #735D71;
-    border: 7px solid #9D9265;
+    background-color: transparent;
+    border: 7px solid #ffffff;
     border-radius: 14px;
 
     margin-left: 35%;
@@ -37,11 +37,11 @@
 }
 
 #skills ul, #skills li {
-    font-family: "alegreya sans sc", sans-serif;
+    font-family: "julee", cursive;
     font-size: 36px;
-    -webkit-text-stroke: 1.2pt #6FF5E7;
+    -webkit-text-stroke: 1.2pt #ffffff;
     transform: rotate(-3deg);
-    color: #6FF5E7;
+    color: #ffffff;
 }
 
 #skills ul {
