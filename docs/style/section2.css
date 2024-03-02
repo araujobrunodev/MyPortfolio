@@ -20,7 +20,7 @@ body {
 #MyName {
     font-size: 60px;
     text-align: center;
-    font-family: "trade winds", system-ui;
+    font-family: "julee", cursive;
     font-weight: 600;
     font-style: normal;
     margin-bottom: 3px;
@@ -46,7 +46,7 @@ body {
     background-color: transparent;
 
     color: #ffffff;
-    font-family: "jejuhallasan", sans-serif;
+    font-family: "julee", cursive;
     font-weight: bolder;
 
     transform: rotate(-1deg);

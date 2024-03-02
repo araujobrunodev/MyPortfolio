@@ -11,7 +11,7 @@
 }
 
 #skills_title {
-    font-family: "londrina shadow", sans-serif;
+    font-family: "julee", cursive;
     text-align: center;
     font-size: 66px;
     line-height: 135px;
@@ -37,7 +37,7 @@
 }
 
 #skills ul, #skills li {
-    font-family: "alegreya sans sc", sans-serif;
+    font-family: "julee", cursive;
     font-size: 36px;
     -webkit-text-stroke: 1.2pt #ffffff;
     transform: rotate(-3deg);
