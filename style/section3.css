@@ -17,22 +17,34 @@
     text-align: center;
     color: #00FF0A;
 
+    /* -webkit-text-size-adjust: none; */
+
     line-height: 7rem;
     margin-top: 0px;
+}
+
+#groupProject {
+    position: relative;
+    display: flex;
+
+    width: 80vw;
+    height: 90%;
+
+    margin-left: 9%;
+    margin-bottom: 1%;
 }
 
 #project1, #project2 {
     display: inline-block;
     
-    width: 510px;
+    flex: 1;
     
     background-color: transparent;
     border-radius: 15px;
     border: 2px solid #ffffff;
 
     padding-bottom: 50px;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 #tie_tac_toe_title, #Air_girl_title {
@@ -71,7 +83,7 @@
     text-align: left;
     font-size: x-large;
     font-weight: 400px;
-    font-family: "julee", cursive;
+    font-family: "love ya like a sister", cursive;
     color: #ffffff;
 
     margin-top: 30px;
@@ -92,14 +104,6 @@
     text-align: center;
     color: #00FF0A;
     cursor: pointer;
-}
-
-#project1 {
-    height: 50%;
-}
-
-#project2 {
-    position: absolute;
 }
 
 .a_button {

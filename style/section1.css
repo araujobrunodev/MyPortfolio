@@ -4,9 +4,6 @@ html {
 
 #section1 {
     position: relative;
-
-    display: flex;
-    flex-direction: column;
     
     float: left;
 
@@ -19,12 +16,16 @@ html {
 /* main itens */
 
 #presentation {
-    flex: 30%;
-    margin-bottom: -13%;
+    width: 100%;
+    height: 60%;
 }
 
 #contacts {
-    flex: 70%;
+    position: relative;
+
+    width: 100%;
+    height: 50%;
+
 }
 
 /* childs */
@@ -32,25 +33,27 @@ html {
 #facePhoto {
     position: relative;
     
-    width: 57%;
-    height: 41%;
+    width: 16vw;
+    height: 27vh;
     
     margin: 0px;
     border-radius: 100%;
     border: 3px solid #ffffff;
 
     left: 23%;
-    top: -9%;     
+    top: -14%;     
 }
 
 #semicircle {
     position: relative;
 
     width: 72%;
-    height: 46%;
+    height: 57%;
 
-    left: 17%;
-    top: -52%;
+    left: 19%;
+    top: -62%;
+
+    transform: rotate(11deg);
 }
 
 #circle {
@@ -60,7 +63,7 @@ html {
     border-radius: 100%;
     
     width: 50%;
-    height: 31%;
+    height: 42%;
 
     top: 33%;
     left: 35%;
@@ -75,8 +78,26 @@ html {
     color: #ffffff;
 }
 
+#groupContact {
+    position: relative;
+    display: flex;
+
+    width: 40%;
+    height: 30%;
+
+    top: -28vh;
+    left: 34%;
+
+    -webkit-margin-start: -10px;
+}
+
+#groupContact a {
+    flex: 1;
+}
+
 #contacts a, #linkedin, #github {
-    width: 55px;
+    width: 52px;
+    height: 57%;
 }
 
 #contacts button{
@@ -85,22 +106,11 @@ html {
     padding-right: 3%;
 }
 
-#contacts a {
-    display: inline-block;
-}
-
-#first_a {
-    /* filter: #F24BE3; */
-    margin-top: 5%;
-    margin-left: 32%;
-    margin-right: 5%;
-}
-
 #lowerLines {
     position: relative;
+    width: 39%;
     
-    top: -13%;
-    left: -20%;
+    top: 8%;
 }
 
 /* mobile */

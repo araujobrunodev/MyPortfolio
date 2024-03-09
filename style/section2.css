@@ -38,7 +38,7 @@ body {
     padding-bottom: 10px;
     margin-left: 12%;   
 
-    top: -39%;
+    top: 5%;
 
     border: 5.5pt solid #ffffff;
     border-radius: 15px;
@@ -46,14 +46,14 @@ body {
 
     color: #ffffff;
     font-family: "julee", cursive;
-    font-weight: bolder;
+    font-weight: 200;
 
     transform: rotate(-1deg);
 }
 
 #borderAboutMe {
     position: relative;
-    top: 11%;
+    top: 1vh;
 
     width: 90%;
     left: 9%;
@@ -66,7 +66,10 @@ body {
 
 #topLines {
     position: absolute;
-    left: 71%;
+
+    width: 16%;
+
+    left: 84%;
 }
 
 @media only screen and (max-width: 412px) {
