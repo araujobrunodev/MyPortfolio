@@ -78,10 +78,15 @@ body {
         height: 55rem;
     }
 
+    #MyName {
+        position: relative;
+        top: 35%;
+    }
+
     #about_me {
         height: 62%;
 
-        top: -18%;
+        top: 40%;
         margin-left: 7%;
     }
 
@@ -101,6 +106,7 @@ body {
 
     #topLines {
         content: url("../images/topLines2.svg");
-        left: 55%;
+        width: 35%;
+        left: 65%;
     }
 }
