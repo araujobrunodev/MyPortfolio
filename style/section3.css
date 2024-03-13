@@ -55,6 +55,7 @@
 }
 
 #appendImg1, #appendImg2 {
+    display: flex;
     max-width: 80%;
 
     background-color: transparent;
@@ -62,15 +63,21 @@
     border: 2px solid #ffffff;
 
     margin-left: 10%;
-    cursor: pointer;
+}
+
+.arrow {
+    position: relative;
+    width: 20vw;
+    left: 19%;
 }
 
 #TicTacToeImg, #AirGirlImg {
-    width: 170px;
-    height: 290px;
+    position: relative;
 
-    margin-left: 30%;
-    margin-top: 5px;
+    width: 12vw;
+    height: 34vh;
+
+    left: -31%;
 
     border-radius: 5px;
 }
@@ -103,7 +110,6 @@
 
     text-align: center;
     color: #00FF0A;
-    cursor: pointer;
 }
 
 .a_button {
