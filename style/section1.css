@@ -7,7 +7,7 @@ html {
     
     float: left;
 
-    width: 28.1vw;
+    width: 31.1vw;
     height: 99vh;
 
     background-color: transparent;
@@ -40,7 +40,7 @@ html {
     border-radius: 100%;
     border: 3px solid #ffffff;
 
-    left: 23%;
+    left: 29%;
     top: -14%;     
 }
 
@@ -50,7 +50,7 @@ html {
     width: 72%;
     height: 57%;
 
-    left: 19%;
+    left: 21%;
     top: -62%;
 
     transform: rotate(11deg);
@@ -74,6 +74,7 @@ html {
     font-family: "julee", cursive;
     text-align: center;
     font-size: 40px;
+    text-indent: 10%;
     font-weight: 500;
     color: #ffffff;
 }
@@ -82,11 +83,11 @@ html {
     position: relative;
     display: flex;
 
-    width: 40%;
+    width: 30%;
     height: 18%;
 
     top: -26vh;
-    left: 34%;
+    left: 42%;
 
     -webkit-margin-start: -10px;
 }
