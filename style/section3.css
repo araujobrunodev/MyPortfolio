@@ -55,6 +55,7 @@
 }
 
 #appendImg1, #appendImg2 {
+    display: flex;
     max-width: 80%;
 
     background-color: transparent;
@@ -62,15 +63,21 @@
     border: 2px solid #ffffff;
 
     margin-left: 10%;
-    cursor: pointer;
+}
+
+.arrow {
+    position: relative;
+    width: 20vw;
+    left: 19%;
 }
 
 #TicTacToeImg, #AirGirlImg {
-    width: 170px;
-    height: 290px;
+    position: relative;
 
-    margin-left: 30%;
-    margin-top: 5px;
+    width: 12vw;
+    height: 34vh;
+
+    left: -31%;
 
     border-radius: 5px;
 }
@@ -102,8 +109,7 @@
     border-radius: 15px;
 
     text-align: center;
-    color: #00FF0A;
-    cursor: pointer;
+    color: #ffffff;
 }
 
 .a_button {
@@ -114,51 +120,4 @@
 
 #play1:hover, #play2:hover {
     transform: scale(1.1, 1.1);
-}
-
-@media only screen and (max-width: 412px) {
-    #groupProject {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-
-        width: 90vw;
-
-        overflow-x: scroll;
-    }
-
-    #tie_tac_toe_title,#Air_girl_title {
-        width: 280px;
-        text-transform: uppercase;
-        font-weight: 950px;
-        margin-left: 10%;
-    }
-
-    #project1 {
-        margin-left: 15px;
-    }
-
-    #project2 {
-        position: relative;
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-
-    #appendImg1,#appendImg2 {
-        width: 340px;
-    }
-
-    #TicTacToeImg, #AirGirlImg {
-        width: 50%;
-        margin-left: 27%;
-    }
-
-    #projectText1,#projectText2 {
-        margin-left: 16%;
-    }
-
-    #play1, #play2 {
-        border-radius: 5px;
-        font-size: 23px;
-    }
 }
