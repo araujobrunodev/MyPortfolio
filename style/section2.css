@@ -31,7 +31,6 @@ body {
 
 #about_me {
     position: relative;
-
     max-width: 80%;
     height: 50%;
 
@@ -60,7 +59,7 @@ body {
 }
 
 #textAboutMe {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-left: 12px;
 }
 
