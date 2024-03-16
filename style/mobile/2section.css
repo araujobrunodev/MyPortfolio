@@ -31,7 +31,6 @@
     }
 
     #topLines {
-        content: url("/images/topLines2.svg");
         width: 35%;
         left: 65%;
     }
