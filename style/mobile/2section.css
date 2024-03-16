@@ -6,22 +6,22 @@
 
     #MyName {
         position: relative;
-        top: 35%;
+        top: 36%;
     }
 
     #about_me {
-        height: 62%;
+        height: 68%;
 
         top: 40%;
         margin-left: 7%;
+
+        border: none;
     }
 
     #textAboutMe {
         height: 99%;
         
-        font-weight: bold;
         margin-top: 4%;
-        overflow: auto;
     }
 
     #borderAboutMe {
@@ -31,7 +31,7 @@
     }
 
     #topLines {
-        content: url("../images/topLines2.svg");
+        content: url("/images/topLines2.svg");
         width: 35%;
         left: 65%;
     }
