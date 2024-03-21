@@ -33,6 +33,10 @@
         left: 12%;
         top: -281%;
     }
+    
+    #collection {
+        top: -55%;
+    }
 
     #contacts h2 {
         position: relative;
@@ -60,7 +64,7 @@
 
         width: 45%;
 
-        top: -10%;
+        top: -5%;
         left: -4%;
     }
 }
