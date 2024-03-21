@@ -68,8 +68,12 @@ html {
     top: 33%;
     left: 35%;
 }
+#collection {
+    position: relative;
+    top: -50%;
+}
 
-#contacts h2 {
+#collection h2 {
     margin: 0px;
     font-family: "julee", cursive;
     text-align: center;
@@ -77,6 +81,8 @@ html {
     text-indent: 10%;
     font-weight: 500;
     color: #ffffff;
+
+    margin-bottom: 5%;
 }
 
 #groupContact {
@@ -86,7 +92,6 @@ html {
     width: 30%;
     height: 18%;
 
-    top: -26vh;
     left: 42%;
 
     -webkit-margin-start: -10px;
