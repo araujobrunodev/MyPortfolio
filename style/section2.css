@@ -20,7 +20,7 @@ body {
 #MyName {
     font-size: 60px;
     text-align: center;
-    font-family: "julee", cursive;
+    font-family: "kreon", serif;
     font-weight: 600;
     font-style: normal;
     margin-bottom: 3px;
@@ -44,7 +44,7 @@ body {
     background-color: transparent;
 
     color: #ffffff;
-    font-family: "julee", cursive;
+    font-family: "kreon", serif;
     font-weight: 200;
 }
 
