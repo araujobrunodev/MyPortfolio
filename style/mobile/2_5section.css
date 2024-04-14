@@ -3,14 +3,15 @@
         height: 52rem;
     }
 
-    #skills {
-        width: 76%;
+    #skills_text {
+        width: 60%;
 
-        margin-top: 29%;
-        margin-left: 11%;
+        font-size: 27px;
+
+        left: 26%;
     }
 
-    #skills ul {
-        margin-left: 14%;
+    #line {
+        left: 10%;
     }
 }

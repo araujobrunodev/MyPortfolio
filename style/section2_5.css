@@ -23,28 +23,26 @@
     margin-bottom: -63px;
 }
 
-#skills {
-    width: 30%;
-    height: 50%;
+#skills_text {
+    position: absolute;
+    width: 35%;
+    height: 70%;
 
-    background-color: transparent;
-    border: 3px solid #ffffff;
-    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 37px;
 
-    margin-left: 35%;
-    margin-top: 10%;
-
-    transform: rotate(3deg);
+    left: 35%;
+    top: 25%;
 }
 
-#skills ul, #skills li {
-    font-family: "kreon", serif;
-    font-size: 36px;
-    -webkit-text-stroke: 1.2pt #ffffff;
-    transform: rotate(-3deg);
-    color: #ffffff;
+#p1, #p2 {
+    flex: 1;
 }
 
-#skills ul {
-    margin-left: 20%;
+#line {
+    position: absolute;
+    top: 30%;
+    left: 30%;
 }
