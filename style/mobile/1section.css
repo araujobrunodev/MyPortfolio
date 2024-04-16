@@ -2,40 +2,49 @@
 @media only screen and (max-width:412px) {
     #section1 {
         position: relative;
+
+        clear: both;
     
         display: flex;
         flex-direction: column;
     
         width: 100%;
-        height: 43rem;
+        height: 96vh;
     }
 
     #facePhoto {
-        width: 53%;
-        height: 43%;
+        position: absolute;
+        width: 55%;
+        height: 25%;
 
-        top: -228%;
+        top: -106%;
         left: 20%;
     }
 
     #circle {
-        width: 47%;
-        height: 40%;
+        position: absolute;
 
-        top: -182%;
-        left: 29%;
+        width: 55%;
+        height: 25%;
+
+        top: -104%;
+        left: 25%;
     }
     
     #semicircle {
-        width: 75%;
-        height: 60%;
+        position: absolute;
+
+        width: 65%;
+        height: 35%;
         
-        left: 12%;
-        top: -281%;
+        top: -110%;
+        left: 17%;
     }
     
     #collection {
-        top: -55%;
+        position: absolute;
+        top: 40%;
+        left: 30%;
     }
 
     #contacts h2 {
@@ -56,6 +65,7 @@
     }
 
     #first_a {
+        margin-left: -80%;
         margin-right: 24px;
     }
 
@@ -64,7 +74,7 @@
 
         width: 45%;
 
-        top: -5%;
+        top: 31%;
         left: -4%;
     }
 }
