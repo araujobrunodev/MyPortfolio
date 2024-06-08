@@ -62,20 +62,19 @@
 }
 
 .arrow {
-    position: relative;
-    width: 20vw;
-    left: 19%;
+    flex: 1;
+    height: 49px;
+    margin-top: 31%;
+}
+
+.videos {
+    flex: 1;;
 }
 
 #TicTacToeImg, #AirGirlImg {
-    position: relative;
-
-    width: 12vw;
-    height: 34vh;
-
-    left: -31%;
-
+    flex: 1;
     border-radius: 5px;
+    height: 24rem;
 }
 
 #projectText1, #projectText2 {
