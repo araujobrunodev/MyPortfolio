@@ -26,22 +26,20 @@
     display: flex;
 
     width: 80vw;
-    height: 90%;
+    height: 43rem;
 
     margin-left: 9%;
     margin-bottom: 1%;
+    gap: 2rem;
 }
 
 #project1, #project2 {
-    display: inline-block;
-    
+    display: flex;
+    flex-direction: column;
     flex: 1;
-    
     background-color: #151515;
     border-radius: 15px;
-
-    padding-bottom: 50px;
-    margin-left: 20px;
+    gap: 1rem;
 }
 
 #tie_tac_toe_title, #Air_girl_title {
@@ -49,48 +47,43 @@
     font-family: "kreon", serif;
     text-transform: uppercase;
     color: #00FF0A;
+    flex: 1;
+    margin: 0px;
+    line-height: 5.9rem;
 }
 
 #appendImg1, #appendImg2 {
     display: flex;
-    max-width: 80%;
+    margin: 0px 20%;
+    height: 20rem;
 
     background-color: #292929;
     border-radius: 20px;
-
-    margin-left: 10%;
+    flex-direction: row;
 }
 
 .arrow {
-    position: relative;
-    width: 20vw;
-    left: 19%;
+    flex: 1;
+    padding: 8rem 0px;
+}
+
+.videos {
+    flex: 1;
+    width: 10rem;
 }
 
 #TicTacToeImg, #AirGirlImg {
-    position: relative;
-
-    width: 12vw;
-    height: 34vh;
-
-    left: -31%;
-
+    flex: 1;
     border-radius: 5px;
 }
 
 #projectText1, #projectText2 {
-    position: relative;
-
-    width: 70%;
-    
-    text-align: left;
+    margin: 0px 8rem;
     font-size: x-large;
     font-weight: 400px;
     font-family: "kreon", serif;
     color: #ffffff;
-
-    margin-top: 30px;
-    margin-left: 80px;
+    flex: 1;
 }
 
 #play1, #play2 {
@@ -109,9 +102,9 @@
 }
 
 .a_button {
-    position: relative;
-    margin-left: 40%;
-    margin-top: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 #play1:hover, #play2:hover {

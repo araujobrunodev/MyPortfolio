@@ -1,16 +1,14 @@
 @media only screen and (max-width: 500px) {
     #groupProject {
         position: relative;
-        display: flex;
         flex-direction: row;
-
         width: 90vw;
         height: 55%;
-
         overflow-x: scroll;
         overflow-y: hidden;
         margin-left: 0%;
         margin-bottom: 6%;
+        gap: 0.1rem;
     }
 
     #tie_tac_toe_title,#Air_girl_title {
@@ -42,15 +40,12 @@
     }
 
     #TicTacToeImg, #AirGirlImg {
-        width: 29vw;
-        height: 100%;
-
-        margin-left: -9%;
+        height: 13rem;
     }
 
     #projectText1,#projectText2 {
         font-size: larger;
-        margin-left: 16%;
+        margin: 0px 3rem;
     }
 
     #play1, #play2 {
@@ -58,15 +53,8 @@
         border-radius: 5px;
         font-size: 23px;
     }
-
-    .a_button {
-        top: -2%;
-        margin-left: 36%;
-    }
     
     .arrow {
-        width: 43vw;
-
-        left: 14%;
+        padding: 6rem 0px;
     }
 }
