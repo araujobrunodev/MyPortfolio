@@ -39,10 +39,6 @@
         height: 40%;
     }
 
-    #TicTacToeImg, #AirGirlImg {
-        height: 13rem;
-    }
-
     #projectText1,#projectText2 {
         font-size: larger;
         margin: 0px 3rem;
@@ -55,6 +51,6 @@
     }
     
     .arrow {
-        padding: 6rem 0px;
+        margin: 6rem 0px;
     }
 }
