@@ -62,7 +62,6 @@
     }
     
     .arrow {
-        height: 49px;
-        margin-top: 31%;
+        padding: 6rem 0px;
     }
 }

@@ -53,22 +53,21 @@
 
 #appendImg1, #appendImg2 {
     display: flex;
-    max-width: 80%;
+    margin: 0px 20%;
+    height: 20rem;
 
     background-color: #292929;
     border-radius: 20px;
-
-    margin-left: 10%;
+    flex-direction: row;
 }
 
 .arrow {
     flex: 1;
-    height: 49px;
-    margin-top: 31%;
+    padding: 8rem 0px;
 }
 
 .videos {
-    flex: 1;;
+    flex: 1;
 }
 
 #TicTacToeImg, #AirGirlImg {
