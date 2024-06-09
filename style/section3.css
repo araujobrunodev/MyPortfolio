@@ -73,7 +73,6 @@
 #TicTacToeImg, #AirGirlImg {
     flex: 1;
     border-radius: 5px;
-    height: 24rem;
 }
 
 #projectText1, #projectText2 {
