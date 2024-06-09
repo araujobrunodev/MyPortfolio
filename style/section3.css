@@ -64,7 +64,7 @@
 
 .arrow {
     flex: 1;
-    padding: 8rem 0px;
+    margin: 8rem 0px;
 }
 
 .videos {
@@ -105,8 +105,10 @@
     flex: 1;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 #play1:hover, #play2:hover {
     transform: scale(1.1, 1.1);
+    text-decoration: none;
 }
