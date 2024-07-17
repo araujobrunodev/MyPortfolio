@@ -1,0 +1,54 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #292929;
+
+}
+
+.section {
+    width: 99.8vw;
+    height: 98vh;
+}
+
+.main-section {
+    display: flex;
+    background-image: url("../images/ballsPc_1.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    gap: 5.2rem;
+}
+
+.photo-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+    background-image: url("../images/lines.svg");
+    background-repeat: no-repeat;
+}
+
+.photo {
+    width: 18rem;
+    height: 20rem;
+    border-radius: 20px;
+}
+
+.presentation {
+    display: flex;
+    flex-flow: wrap column;
+    width: 29rem;
+}
+
+.text-presentation {
+    color: white;
+    font-size: 57px;
+    font-family: "kreon", serif;
+    text-align: left;
+    margin: 0px;
+    margin-top: 6.6rem;
+}
+
+.line-down {
+    width: 20rem;
+    height: 11rem;
+}

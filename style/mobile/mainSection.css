@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .section {
+        width: 100vw;
+        height: 100vh;
+    }
+    .main-section {
+        display: flex;
+        height: 99vh;
+        flex-flow: wrap column;
+        background-image: url("../../images/ballsMobile_1.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        gap: 4rem;
+    }
+
+    .photo-area {
+        flex: 1;
+        background-image: none;
+        margin: 10% 18% 0rem 18%;
+    }
+
+    .photo {
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+    }
+
+    .presentation {
+        flex: 1;
+        width: auto;
+    }
+
+    .text-presentation {
+        flex: 1;
+        font-size: 2.1rem;
+        margin: 0px 4rem;
+        text-align: left;
+    }
+
+    .line-down {
+        flex: 1;
+        width: 100%;
+        align-self: center;
+    }
+}
