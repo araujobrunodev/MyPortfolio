@@ -1,0 +1,120 @@
+.projects {
+    background-color: transparent;
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.project-title {
+    flex-shrink: 1;
+    font-family: "kreon", serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #00FF0A;
+    margin: 0px;
+}
+
+.group-project {
+    display: flex;
+    width: 63rem;
+    height: 28rem;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+}
+
+.project-area {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 11rem;
+}
+
+.project {
+    scroll-snap-align: center;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    border-radius: 15px;
+    gap: 1rem;
+    padding: 1rem 0rem;
+}
+
+.item-title {
+    text-align: center;
+    font-family: "kreon", serif;
+    text-transform: uppercase;
+    color: #00FF0A;
+    flex-shrink: 1;
+    margin: 0px;
+}
+
+.visualization-area {
+    display: flex;
+    margin: 0px 11%;
+    background-color: #292929;
+    border-radius: 20px;
+    flex-direction: row;
+    max-height: 35%;
+}
+
+.arrow_container {
+    flex: 1;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+}
+
+.arrow {
+    height: 25%;
+}
+
+
+.videos {
+    width: 7rem;
+    height: 100%;
+    object-fit: fill;
+}
+
+.imgs {
+    width: 7rem;
+    height: 100%;
+    object-fit: fill;
+}
+
+.item-bio {
+    padding: 0px 2rem;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    font-family: "kreon", serif;
+    color: #ffffff;
+    margin: 0rem;
+    flex-shrink: 1;
+}
+
+.a_button {
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.play {
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: "kreon", serif;
+    background-color: #292929;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.play:hover {
+    transform: scale(1.1, 1.1);
+    text-decoration: none;
+}

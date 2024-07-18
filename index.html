@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="./style/mobile/mainSection.css">
     <link rel="stylesheet" href="./style/aboutMe.css">
     <link rel="stylesheet" href="./style/skills.css">
-    <!-- <link rel="stylesheet" href="./style/section3.css"> -->
+    <link rel="stylesheet" href="./style/projects.css">
     <link rel="stylesheet" href="./style/mobile/aboutMe.css">
     <link rel="stylesheet" href="./style/mobile/skills.css"> 
-    <!-- <link rel="stylesheet" href="./style/mobile/3section.css"> -->
+    <link rel="stylesheet" href="./style/mobile/projects.css">
   </head>
   <body>
     
@@ -77,65 +77,67 @@
       </div>
     </section>
     
-    <!--
-    <section id="section3">
-      <h1 id="projects">Projetos</h1>
+    <section class="section projects">
+      <h1 class="project-title">Projetos</h1>
 
-      <div id="groupProject">
-        <div id="project1">
-          <h1 id="tie_tac_toe_title">Jogo da velha</h1>
+      <div class="group-project">
+        <div class="project-area">
+          <div class="project">
+            <h1 class="item-title">Jogo da velha</h1>
+    
+            <div class="visualization-area">
+                <div class="arrow_container" id="ttt-arrow-left">
+                  <img class="arrow" src="images/arrowRight.svg" alt="arrow">
+                </div>
   
-          <div id="appendImg1">
-              <div class="arrow_container" id="ttt_arrow_left">
+                <img src="images/jogo_da_velha1.png" id="tic-tac-toe" hidden="true" class="imgs" alt="tic-tac-toe image">
+                <video class="videos" id="videoTTT" src="./videos/video1.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>
+                
+                <div class="arrow_container" id="ttt-arrow-right">
+                  <img class="arrow" src="images/arrowLeft.svg" alt="arrow">    
+                </div> 
+            </div>
+            
+            <p class="item-bio">Um jogo da velha que pode ser jogado com amigos. Para jogar basta compartilha o seu id para o convidado e espera-lo aceita para iniciar.</p>
+            
+            <a class="a_button" target="_self" href="https://tic-tac-toe-5k9d.onrender.com">
+                <button class="play">
+                  Jogar
+                </button>
+              </a>
+          </div>
+    
+          <div class="project">
+            <h1 class="item-title">Air girl</h1>
+    
+            <div class="visualization-area">
+              <div class="arrow_container" id="ag-arrow-left">
                 <img class="arrow" src="images/arrowRight.svg" alt="arrow">
               </div>
-
-              <img src="images/jogo_da_velha1.png" hidden="true" id="TicTacToeImg" alt="tic-tac-toe image">
-              <video class="videos" id="videoTTT" src="./videos/video1.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>
-              
-              <div class="arrow_container" id="ttt_arrow_right">
-                <img class="arrow" src="images/arrowLeft.svg" alt="arrow">    
-              </div>
-          </div>
   
-          <p id="projectText1">Um jogo da velha que pode ser jogado com amigos. Para jogar basta compartilha o seu id para o convidado e espera-lo aceita para iniciar.</p>
+              <img src="./images/airGirl1.png" hidden="true" class="imgs" id="air-girl" alt="Air girl imagem">
+              <video class="videos" id="videoAirGirl" src="./videos/video2.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>  
+              
+              <div class="arrow_container" id="ag-arrow-right">
+                <img class="arrow" src="images/arrowLeft.svg" alt="arrow">
+              </div>
+            </div>
+  
             
-          <a class="a_button" target="_self" href="https://tic-tac-toe-5k9d.onrender.com">
-              <button id="play1">
+            <p class="item-bio">Um jogo onde se tem que marca o maior ponto possivel sem ser interrompido.</p>
+               
+            <a class="a_button" target="_self" href="https://air-girl.onrender.com">
+              <button class="play">
                 Jogar
               </button>
             </a>
-        </div>
-  
-        <div id="project2">
-          <h1 id="Air_girl_title">Air girl</h1>
-  
-          <div id="appendImg2">
-            <div class="arrow_container" id="AG_arrow_left">
-              <img class="arrow" src="images/arrowRight.svg" alt="arrow">
-            </div>
-
-            <img src="./images/airGirl1.png" hidden="true" id="AirGirlImg" alt="Air girl imagem">
-            <video class="videos" id="videoAirGirl" src="./videos/video2.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>  
-            
-            <div class="arrow_container" id="AG_arrow_right">
-              <img class="arrow" src="images/arrowLeft.svg" alt="arrow">
-            </div>
           </div>
-
-  
-          <p id="projectText2">Um jogo onde se tem que marca o maior ponto possivel sem ser interrompido.</p>
-            
-          <a class="a_button" target="_self" href="https://air-girl.onrender.com">
-            <button id="play2">
-              Jogar
-            </button>
-          </a>
         </div>
       </div>
-    </section> -->
+
+    </section>
 
     <script src="./effect/changeUrl.js"></script>
-    <!-- <Script src="./effect/changeImg.js"></Script> -->
+    <Script src="./effect/changeImg.js"></Script>
   </body>
 </html>
