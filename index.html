@@ -3,128 +3,138 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+    
     <link rel="icon" href="./images/favicon.ico">
+    
     <meta name="google-site-verification" content="57126wL-9YS9qAIjgJybK-MNRUDAqgqCtSQMpnRmTk0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style/section1.css">
-    <link rel="stylesheet" href="./style/section2.css">
-    <link rel="stylesheet" href="./style/section2_5.css">
-    <link rel="stylesheet" href="./style/section3.css">
-    <link rel="stylesheet" href="./style/mobile/1section.css">
-    <link rel="stylesheet" href="./style/mobile/2section.css">
-    <link rel="stylesheet" href="./style/mobile/2_5section.css">
-    <link rel="stylesheet" href="./style/mobile/3section.css">
+    
+    <link rel="stylesheet" href="./style/mainSection.css">
+    <link rel="stylesheet" href="./style/mobile/mainSection.css">
+    <link rel="stylesheet" href="./style/aboutMe.css">
+    <link rel="stylesheet" href="./style/skills.css">
+    <link rel="stylesheet" href="./style/projects.css">
+    <link rel="stylesheet" href="./style/mobile/aboutMe.css">
+    <link rel="stylesheet" href="./style/mobile/skills.css"> 
+    <link rel="stylesheet" href="./style/mobile/projects.css">
   </head>
   <body>
-    <section id="section2">
-      <img id="topLines" src="./images/topLines.svg" alt="top lines">
-      <h1 id="MyName">Bruno Araujo Santos</h1>
-      <div id="about_me">
-        <p id="textAboutMe">Sou um desenvolvedor frontend que faz sites landing page e jogos 2D. Eu gosto de olhar para a interface e ver se a interação  da página está funcionando. Eu sei mexer no backend, como criar um servidor e se comunicar em tempo real (websocket). Atualmente, tenho 16 anos e estou cursando o ensino médio.</p>
+    
+    <section class="section main-section">
+      <div class="photo-area">
+        <img class="photo" src="./images/selfie2.jpg" alt="face photo">
+      </div>
+
+      <div class="presentation">
+        <p class="text-presentation">Ola, meu nome é Bruno é sou um desenvolvedor web.</p>
+
+        <img class="line-down" src="./images/lines 2.svg" alt="line 2">
       </div>
     </section>
 
-    <section id="section1">
-      <div id="presentation">
-        <div id="circle"></div>
-        <img src="./images/selfie2.jpg" id="facePhoto" alt="face photo">
-        <img id="semicircle" src="./images/semicircle.svg" alt="semicircle">
-      </div>
+    <section class="section about-me">      
+      <h1 class="title-about-me">Sobre mim</h1>
       
-      <div id="contacts">
-        <img id="lowerLines" src="./images/lowerLines.svg" alt="lower lines">
-        
-        <div id="collection">
-          <h2>Contatos</h2>
-          
-          <div id="groupContact">
-            <a id="first_a" target="_self" href="https://github.com/araujobrunodev">
-              <button id="githubButton">
-                <img src="./images/github.svg" id="github" alt="github">
-              </button>
-            </a>
-    
-            <a target="_self" href="https://www.linkedin.com/in/bruno-araujo-2740a82a3/">
-              <button id="linkedinButton">
-                <img src="./images/linkedin.svg" id="linkedin" alt="linkedin">
-              </button>
-            </a>
-          </div>
+      <div class="text-area-about-me">
+        <p class="text-about-me">Seja bem-vindo ao meu site. Me chamo Bruno,  sou um desenvolvedor frontend autodidata, que faz sites landing page e jogos 2D. Este site demonstra meus projetos desenvolvidos até o momento. Espero que goste do que vê.</p>
+      </div>
+
+      <img class="line" src="./images/lines 3.svg" alt="lines 3">
+
+      <div class="contacts">
+        <a class="a-link" target="_self" href="https://github.com/araujobrunodev">
+            <img src="./images/github.svg" alt="github">
+        </a>
+
+        <a class="a-link" target="_self" href="https://www.linkedin.com/in/bruno-araujo-2740a82a3/">
+            <img src="./images/linkedin.svg" alt="linkedin">
+        </a>
+      </div>
+    </section>
+
+    <section class="section skills">
+      <h1 class="skills-title">Habilidades</h1>
+
+      <div class="skills-text-area">
+        <img class="skill-line" src="images/line.svg" alt="line">
+      
+        <div class="skills-text">
+          <p class="skill-p"> 
+            Criação de sites landing page e jogos 2D com o react e css.
+          </p>
+
+          <p class="skill-p"> 
+            Adaptação de site para dispositivos mobile e web.
+          </p>
         </div>
       </div>
-
     </section>
+    
+    <section class="section projects">
+      <h1 class="project-title">Projetos</h1>
 
-    <section id="section2_5">
-      <h1 id="skills_title">Habilidades</h1>
-
-      <img id="line" src="images/line.svg" alt="line">
-      
-      <div id="skills_text">
-        <p id="p1"> Criação de sites landing page e jogos 2D com o react e css.</p>
-
-        <p id="p2"> Adaptação de site para dispositivos mobile e web.</p>
-      </div>
-    </section>
-
-    <section id="section3">
-      <h1 id="projects">Projetos</h1>
-
-      <div id="groupProject">
-        <div id="project1">
-          <h1 id="tie_tac_toe_title">Jogo da velha</h1>
+      <div class="group-project">
+        <div class="project-area">
+          <div class="project">
+            <h1 class="item-title">Jogo da velha</h1>
+    
+            <div class="visualization-area">
+                <div class="arrow_container" id="ttt-arrow-left">
+                  <img class="arrow" src="images/arrowRight.svg" alt="arrow">
+                </div>
   
-          <div id="appendImg1">
-              <div class="arrow_container" id="ttt_arrow_left">
+                <img src="images/jogo_da_velha1.png" id="tic-tac-toe" hidden="true" class="imgs" alt="tic-tac-toe image">
+                <video class="videos" id="videoTTT" src="./videos/video1.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>
+                
+                <div class="arrow_container" id="ttt-arrow-right">
+                  <img class="arrow" src="images/arrowLeft.svg" alt="arrow">    
+                </div> 
+            </div>
+            
+            <p class="item-bio">Um jogo da velha que pode ser jogado com amigos. Para jogar basta compartilha o seu id para o convidado e espera-lo aceita para iniciar.</p>
+            
+            <a class="a_button" target="_self" href="https://tic-tac-toe-5k9d.onrender.com">
+                <button class="play">
+                  Jogar
+                </button>
+              </a>
+          </div>
+    
+          <div class="project">
+            <h1 class="item-title">Air girl</h1>
+    
+            <div class="visualization-area">
+              <div class="arrow_container" id="ag-arrow-left">
                 <img class="arrow" src="images/arrowRight.svg" alt="arrow">
               </div>
-
-              <img src="images/jogo_da_velha1.png" hidden="true" id="TicTacToeImg" alt="tic-tac-toe image">
-              <video class="videos" id="videoTTT" src="./videos/video1.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>
-              
-              <div class="arrow_container" id="ttt_arrow_right">
-                <img class="arrow" src="images/arrowLeft.svg" alt="arrow">    
-              </div>
-          </div>
   
-          <p id="projectText1">Um jogo da velha que pode ser jogado com amigos. Para jogar basta compartilha o seu id para o convidado e espera-lo aceita para iniciar.</p>
+              <img src="./images/airGirl1.png" hidden="true" class="imgs" id="air-girl" alt="Air girl imagem">
+              <video class="videos" id="videoAirGirl" src="./videos/video2.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>  
+              
+              <div class="arrow_container" id="ag-arrow-right">
+                <img class="arrow" src="images/arrowLeft.svg" alt="arrow">
+              </div>
+            </div>
+  
             
-          <a class="a_button" target="_self" href="https://tic-tac-toe-5k9d.onrender.com">
-              <button id="play1">
+            <p class="item-bio">Um jogo onde se tem que marca o maior ponto possivel sem ser interrompido.</p>
+               
+            <a class="a_button" target="_self" href="https://air-girl.onrender.com">
+              <button class="play">
                 Jogar
               </button>
             </a>
-        </div>
-  
-        <div id="project2">
-          <h1 id="Air_girl_title">Air girl</h1>
-  
-          <div id="appendImg2">
-            <div class="arrow_container" id="AG_arrow_left">
-              <img class="arrow" src="images/arrowRight.svg" alt="arrow">
-            </div>
-
-            <img src="./images/airGirl1.png" hidden="true" id="AirGirlImg" alt="Air girl imagem">
-            <video class="videos" id="videoAirGirl" src="./videos/video2.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>  
-            
-            <div class="arrow_container" id="AG_arrow_right">
-              <img class="arrow" src="images/arrowLeft.svg" alt="arrow">
-            </div>
           </div>
-
-  
-          <p id="projectText2">Um jogo onde se tem que marca o maior ponto possivel sem ser interrompido.</p>
-            
-          <a class="a_button" target="_self" href="https://air-girl.onrender.com">
-            <button id="play2">
-              Jogar
-            </button>
-          </a>
         </div>
       </div>
+
     </section>
 
     <script src="./effect/changeUrl.js"></script>

@@ -1,0 +1,28 @@
+@media only screen and (max-width: 500px) {
+    .about-me {
+        background-image: url("../../images/ballsMobile_2.svg");
+        gap: 1.5rem;    
+    }
+    
+    .line {
+        display: none;
+    } 
+
+    .text-area-about-me {
+        width: 85%;
+        height: 39rem;
+    }
+
+    .text-about-me {
+        font-size: 2.3rem;
+    }
+
+    .contacts {
+        margin: 0rem 7rem;
+    }
+
+    .a-link {
+        width: 4rem;
+        height: 4rem;
+    }
+} 

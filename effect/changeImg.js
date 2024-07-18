@@ -1,9 +1,12 @@
-const AG_buttonLeft = document.getElementById("AG_arrow_left")
-const AG_buttonRight = document.getElementById("AG_arrow_right")
-const TTT_buttonLeft = document.getElementById("ttt_arrow_left")
-const TTT_buttonRight = document.getElementById("ttt_arrow_right")
-const TicTacToe_img = document.getElementById("TicTacToeImg")
-const AirGirl_img = document.getElementById("AirGirlImg")
+// buttos
+const AG_buttonLeft = document.getElementById("ag-arrow-left")
+const AG_buttonRight = document.getElementById("ag-arrow-right")
+const TTT_buttonLeft = document.getElementById("ttt-arrow-left")
+const TTT_buttonRight = document.getElementById("ttt-arrow-right")
+//images
+const TicTacToe_img = document.getElementById("tic-tac-toe")
+const AirGirl_img = document.getElementById("air-girl")
+//videos
 const airGirl_video = document.getElementById("videoAirGirl")
 const ttt_video = document.getElementById("videoTTT")
 

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 500px) {    
+    .skills {
+        background-image: url("../../images/skill_wallpaper_2.svg");
+    }
+    
+    .skills-text-area {
+        padding: 0rem 3rem;
+    }
+    
+    .skills-text {
+        font-size: 36px;
+        justify-content: space-evenly;
+    }
+}
