@@ -1,8 +1,8 @@
 @media only screen and (max-width: 500px) {
     .group-project {
         scrollbar-width: none;
-        width: 21.8rem;
-        height: 39rem;
+        width: 100%;
+        height: auto;
     }
 
     .project {
