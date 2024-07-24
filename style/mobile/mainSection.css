@@ -1,11 +1,6 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 @media only screen and (max-width: 500px) {
     .section {
-        width: 100vw;
+        max-width: 97vw;
         height: 100vh;
     }
     .main-section {
@@ -32,12 +27,13 @@ body {
 
     .presentation {
         flex-shrink: 1;
-        width: auto;
+        max-width: 100%;
+        gap: 2rem;
     }
 
     .text-presentation {
         flex: 1;
-        font-size: 2.3rem;
+        font-size: 2.4rem;
         margin: 0px 4rem;
         text-align: left;
     }
@@ -46,5 +42,13 @@ body {
         flex: 1;
         width: 100%;
         align-self: center;
+    }
+
+    .text-presentation {
+        font-size: 1.9rem;
+    }
+
+    .line-down {
+        max-width: 75%;
     }
 }
