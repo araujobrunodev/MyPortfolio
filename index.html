@@ -91,7 +91,7 @@
                   <img class="arrow" src="images/arrowRight.svg" alt="arrow">
                 </div>
   
-                <img src="images/jogo_da_velha1.png" id="tic-tac-toe" hidden="true" class="imgs" alt="tic-tac-toe image">
+                <img src="images/jogo_da_velha1.png" id="tic-tac-toe" class="imgs" alt="tic-tac-toe image">
                 <video class="videos" id="videoTTT" src="./videos/video1.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>
                 
                 <div class="arrow_container" id="ttt-arrow-right">
@@ -116,7 +116,7 @@
                 <img class="arrow" src="images/arrowRight.svg" alt="arrow">
               </div>
   
-              <img src="./images/airGirl1.png" hidden="true" class="imgs" id="air-girl" alt="Air girl imagem">
+              <img src="./images/airGirl1.png" class="imgs" id="air-girl" alt="Air girl imagem">
               <video class="videos" id="videoAirGirl" src="./videos/video2.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>  
               
               <div class="arrow_container" id="ag-arrow-right">
@@ -133,12 +133,38 @@
               </button>
             </a>
           </div>
+
+          <div class="project">
+            <h1 class="item-title">PLIW</h1>
+    
+            <div class="visualization-area">
+              <div class="arrow_container" id="p-arrow-left">
+                <img class="arrow" src="images/arrowRight.svg" alt="arrow">
+              </div>
+  
+              <img src="./images/pliw1.jpg" class="imgs" id="pliw" alt="pliw imagem">
+              <video class="videos" id="videoPliw" src="./videos/video3.mp4" controls controlsList="nodownload" autoplay="autoplay" muted loop="true"></video>  
+              
+              <div class="arrow_container" id="p-arrow-right">
+                <img class="arrow" src="images/arrowLeft.svg" alt="arrow">
+              </div>
+            </div>
+  
+            
+            <p class="item-bio">Pliw é um jogo onde o objetivo é subir de nível atingindo uma pontuação específica. Para ganhar pontos e avançar de nível, o jogador deve apertar  as bolinhas que fica na tela.</p>
+               
+            <a class="a_button" target="_self" href="https://pliw.netlify.app/">
+              <button class="play">
+                Jogar
+              </button>
+            </a>
+          </div>
         </div>
       </div>
 
     </section>
 
     <script src="./effect/changeUrl.js"></script>
-    <Script src="./effect/changeImg.js"></Script>
+    <Script type="module" src="./effect/button/changeImg.mjs"></Script>
   </body>
 </html>

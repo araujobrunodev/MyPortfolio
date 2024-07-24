@@ -2,9 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "scripts": {
-    "start": "vite"
-  },
+  "type": "module",
   "dependencies": {
     "node": "^21.6.0"
   }

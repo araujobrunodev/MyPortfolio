@@ -16,11 +16,10 @@
 
 .group-project {
     display: flex;
-    width: 63rem;
-    height: 28rem;
+    width: 93%;
+    height: 83%;
     overflow-x: scroll;
     scroll-behavior: smooth;
-    scrollbar-width: none;
     scroll-snap-type: x mandatory;
     scroll-snap-stop: always;
 }
@@ -28,12 +27,12 @@
 .project-area {
     display: flex;
     gap: 1.5rem;
-    padding: 1rem 11rem;
+    padding: 0rem 0rem;
 }
 
 .project {
     scroll-snap-align: center;
-    width: 22rem;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     background-color: #151515;
@@ -69,6 +68,12 @@
 
 .arrow {
     height: 25%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none;       
+    -ms-user-select: none;
+    user-select: none;     
 }
 
 
@@ -79,6 +84,7 @@
 }
 
 .imgs {
+    display: none;
     width: 7rem;
     height: 100%;
     object-fit: fill;
@@ -86,7 +92,7 @@
 
 .item-bio {
     padding: 0px 2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400px;
     font-family: "kreon", serif;
     color: #ffffff;
